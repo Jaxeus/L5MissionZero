@@ -1,0 +1,49 @@
+.navContainer {
+  height: 8vh;
+  width: 100vw;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: blueviolet;
+}
+
+.leftContainer {
+  /* width: 13vw; */
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  gap: 1vw;
+  /* background-color: lightseagreen; */
+}
+
+.leftContainer img {
+  width: 2.5vw;
+  height: auto;
+  margin-left: 2vw;
+  border-radius: 100px;
+  background-color: salmon;
+}
+
+.leftContainer h3 {
+  color: greenyellow;
+}
+
+.rightContainer {
+  display: flex;
+  justify-content: space-around;
+  gap: 3vw;
+}
+
+.menuBtn {
+  border: none;
+  /* color: orangered; */
+  background-color: white;
+  padding: 1vh 1vw;
+}
+
+.loginBtn {
+  border: solid 2.5px #5f5f5f;
+  background-color: white;
+  margin-right: 3vw;
+  padding: 1vh 2vw;
+}
