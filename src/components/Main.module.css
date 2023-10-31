@@ -18,7 +18,7 @@
 }
 
 .topContainer h1 {
-  margin-left: 8.5vw;
+  margin-left: 16vw;
   font-size: 50px;
 }
 
@@ -36,7 +36,8 @@
 }
 
 .bottomContainer input {
-  font-size: 18px;
+  text-align: center;
+  font-size: 24px;
   width: 500px;
   height: 55px;
   border-radius: 0;
@@ -44,7 +45,7 @@
 }
 
 .bottomContainer button {
-  font-size: 18px;
+  font-size: 24px;
   width: 200px;
   height: 55px;
   border: none;

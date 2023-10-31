@@ -8,9 +8,21 @@ import traditionalMassage from "../assets/images/traditional-resized.jpg";
 export default function CardSection() {
   return (
     <div className={styles.container}>
-      <Cards textOne="Boo" textTwo="Woo" source={traditionalMassage} />
-      <Cards textOne="Bee" textTwo="Wee" source={reflexologyMassage} />
-      <Cards textOne="Baa" textTwo="Waa" source={oilMassage} />
+      <Cards
+        textOne="Traditional Massage"
+        textTwo="Deep tissue and stretching"
+        source={traditionalMassage}
+      />
+      <Cards
+        textOne="Reflexology Massage"
+        textTwo="For health and circulation"
+        source={reflexologyMassage}
+      />
+      <Cards
+        textOne="Oil Massage"
+        textTwo="Lavender or Eucalyptus"
+        source={oilMassage}
+      />
     </div>
   );
 }
