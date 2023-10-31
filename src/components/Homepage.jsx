@@ -1,6 +1,7 @@
 import React from "react";
 import NavBar from "./NavBar";
 import Main from "./Main";
+import CardSection from "./CardSection";
 
 export default function Homepage() {
   return (
@@ -8,6 +9,7 @@ export default function Homepage() {
       {/* <h1>Homepage</h1> */}
       <NavBar />
       <Main />
+      <CardSection />
     </div>
   );
 }
