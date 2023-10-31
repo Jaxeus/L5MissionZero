@@ -6,9 +6,7 @@ export default function Main() {
   return (
     <div className={styles.mainContainer}>
       <div className={styles.topContainer}>
-        <h1>
-          Unwind <br /> Thai Massage
-        </h1>
+        <h1>Be Kind, Unwind</h1>
         <img alt="massage" src={mainImage} />
       </div>
       <div className={styles.bottomContainer}>
@@ -18,7 +16,7 @@ export default function Main() {
             className={styles.searchBar}
             name="search"
           ></input>
-          <button type="submit">Search</button>
+          <button type="submit">SEARCH</button>
         </form>
       </div>
     </div>

@@ -7,7 +7,7 @@ export default function NavBar() {
     <div className={styles.navContainer}>
       <div className={styles.leftContainer}>
         <img alt="unwind" src={circle} />
-        <h3>My Company</h3>
+        <h3>Unwind Thai Massage</h3>
       </div>
       <div className={styles.rightContainer}>
         <button className={styles.menuBtn}>Menu1</button>
