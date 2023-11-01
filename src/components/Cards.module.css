@@ -30,15 +30,85 @@
 }
 
 .textContainer h2 {
-  margin-left: 1vw;
+  margin-left: 2vw;
   font-size: 24px;
   font-weight: 700;
   color: #3b3b3b;
 }
 
 .textContainer h3 {
-  margin-left: 1vw;
+  margin-left: 2vw;
   font-size: 18px;
   font-weight: 650;
   color: #3b3b3b;
+}
+
+/* Responsiveness */
+
+@media only screen and (max-width: 1240px) {
+  .cardContainer {
+    width: 600px;
+    height: 450px;
+    /* background-color: aquamarine; */
+  }
+
+  .imageContainer {
+    width: 600px;
+    height: 337.5px;
+  }
+
+  .imageContainer img {
+    width: 360px;
+    height: 240px;
+  }
+
+  .textContainer {
+    width: 600px;
+    height: 112.5px;
+  }
+
+  .textContainer h2 {
+    margin-left: 3vw;
+    font-size: 30px;
+  }
+
+  .textContainer h3 {
+    margin-left: 3vw;
+    font-size: 24px;
+  }
+}
+
+@media only screen and (max-width: 603px) {
+  .cardContainer {
+    width: 360px;
+    height: 270px;
+    /* background-color: aquamarine; */
+  }
+
+  .imageContainer {
+    width: 360px;
+    height: 202.5px;
+  }
+
+  .imageContainer img {
+    width: 240px;
+    height: 160px;
+  }
+
+  .textContainer {
+    width: 360px;
+    height: 67.5px;
+  }
+
+  .textContainer h2 {
+    margin-left: 5vw;
+    font-size: 24px;
+    font-weight: 700;
+  }
+
+  .textContainer h3 {
+    margin-left: 5vw;
+    font-size: 18px;
+    font-weight: 650;
+  }
 }

@@ -54,6 +54,40 @@
   border: none;
   background-color: #704080;
   color: salmon;
-  margin-right: 3vw;
+  margin-right: 4vw;
   padding: 1vh 2vw;
+}
+
+/* Responsiveness */
+
+@media only screen and (max-width: 700px) {
+  .leftContainer h3 {
+    font-size: 20px;
+  }
+}
+
+@media only screen and (max-width: 650px) {
+  .leftContainer h3 {
+    font-size: 18px;
+  }
+
+  .rightContainer button {
+    font-size: 16px;
+  }
+}
+
+@media only screen and (max-width: 603px) {
+  .leftContainer h3 {
+    font-size: 18px;
+  }
+
+  .rightContainer button {
+    font-size: 16px;
+  }
+}
+
+@media only screen and (max-width: 583px) {
+  .navContainer {
+    display: none;
+  }
 }

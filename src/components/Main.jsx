@@ -6,7 +6,7 @@ export default function Main() {
   return (
     <div className={styles.mainContainer}>
       <div className={styles.topContainer}>
-        <h1>Be Kind, Unwind</h1>
+        <h1>Be Kind, Unwind!</h1>
         <img alt="massage" src={mainImage} />
       </div>
       <div className={styles.bottomContainer}>
