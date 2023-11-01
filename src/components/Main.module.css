@@ -104,17 +104,17 @@
   }
 
   .topContainer h1 {
-    font-size: 40px;
+    font-size: 10vw;
     margin-left: 8vw;
   }
 
   .bottomContainer input {
-    width: 320px;
+    width: 85vw;
     margin-left: 6vw;
   }
 
   .bottomContainer button {
-    width: 320px;
+    width: 85vw;
     margin-top: 20px;
     margin-left: 6vw;
   }
