@@ -1,8 +1,21 @@
 .container {
   width: 100vw;
-  height: 40vh;
+  height: 500px;
+  background-color: #feb8b07f;
+  background-color: white;
+}
+
+.headingContainer {
+  text-align: center;
+  font-size: 36px;
+  color: #704080;
+  padding: 30px;
+}
+
+.cardContainer {
   display: flex;
   justify-content: space-evenly;
   align-items: center;
   gap: 1vw;
+  /* margin-top: 20px; */
 }

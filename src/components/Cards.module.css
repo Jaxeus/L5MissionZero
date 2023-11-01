@@ -1,28 +1,29 @@
 .cardContainer {
-  margin-top: 4vh;
-  width: 320px;
-  height: 250px;
-  background-color: aquamarine;
+  /* margin-top: 4vh; */
+  width: 400px;
+  height: 300px;
+  /* background-color: aquamarine; */
 }
 
 .imageContainer {
-  width: 320px;
-  height: 190px;
-  background-color: gold;
+  width: 400px;
+  height: 225px;
+  background-color: salmon;
+  background-color: #feb8b07f;
   display: flex;
   justify-content: center;
   align-items: center;
 }
 
 .imageContainer img {
-  width: 210px;
-  height: 140px;
+  width: 270px;
+  height: 180px;
 }
 
 .textContainer {
-  width: 320px;
-  height: 60px;
-  background-color: #5f5f5f;
+  width: 400px;
+  height: 75px;
+  background-color: #caadd3;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -32,10 +33,12 @@
   margin-left: 1vw;
   font-size: 24px;
   font-weight: 700;
+  color: #3b3b3b;
 }
 
 .textContainer h3 {
   margin-left: 1vw;
   font-size: 18px;
   font-weight: 650;
+  color: #3b3b3b;
 }

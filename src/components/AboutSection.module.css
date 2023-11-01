@@ -1,0 +1,24 @@
+.aboutContainer {
+  width: 100vw;
+  height: 60vh;
+  text-align: center;
+  background-color: #feb8b07f;
+}
+
+.headingContainer {
+  padding: 30px;
+  font-size: 36px;
+  color: #704080;
+  width: 100vw;
+}
+
+.listOdd {
+  padding: 10px;
+  font-size: 30px;
+  color: #3b3b3b;
+}
+
+.listEven {
+  padding: 15px;
+  font-size: 30px;
+}

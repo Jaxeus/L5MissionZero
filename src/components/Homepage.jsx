@@ -2,6 +2,7 @@ import React from "react";
 import NavBar from "./NavBar";
 import Main from "./Main";
 import CardSection from "./CardSection";
+import AboutSection from "./AboutSection";
 
 export default function Homepage() {
   return (
@@ -10,6 +11,7 @@ export default function Homepage() {
       <NavBar />
       <Main />
       <CardSection />
+      <AboutSection />
     </div>
   );
 }

@@ -1,10 +1,11 @@
 .navContainer {
-  height: 8vh;
+  height: 55px;
   width: 100vw;
   display: flex;
   justify-content: space-between;
   align-items: center;
-  background-color: blueviolet;
+  background-color: salmon;
+  position: sticky;
 }
 
 .leftContainer {
@@ -26,7 +27,7 @@
 
 .leftContainer h3 {
   font-size: 24px;
-  color: greenyellow;
+  color: #704080;
 }
 
 .rightContainer {
@@ -35,18 +36,23 @@
   gap: 3vw;
 }
 
+.rightContainer a:link {
+  text-decoration: none;
+}
+
 .menuBtn {
   font-size: 18px;
   border: none;
-  /* color: orangered; */
-  background-color: white;
+  color: #704080;
+  background-color: salmon;
   padding: 1vh 1vw;
 }
 
 .loginBtn {
   font-size: 18px;
-  border: solid 2.5px #5f5f5f;
-  background-color: white;
+  border: none;
+  background-color: #704080;
+  color: salmon;
   margin-right: 3vw;
   padding: 1vh 2vw;
 }
