@@ -1,106 +1,27 @@
 # L5MissionZero
 Mission Zero for Level 5 Advanced Software Developer
 
-About The Project
-Product Name Screen Shot
+About the Project:
+--> My massage therapist asked me to consider making her a website when she starts her own business, so I dabbled with this idea in this mission
+--> I had made a basic website using Vanilla HTML and CSS in L4 but I started this project from scratch with React. The only things I used from previous work was the paragraphs in the "About-Section" and a few colors for fonts
+--> I hardcoded everything from scratch using React and CSS Modules. I had started using a lot of viewport-width and viewport-height styling, but soon realised this isn't the best way, so I redid almost all of my sizing and made everything responsive (I tried to make it responsive for any typical sizes, not just typical mobile and laptop)
+--> The most difficult part of the project for me, was the hamburger drop-down menu. I did achieve it with a useState, an onClick function, and using toggled classNames for the drop-down container so that when the hamburger icon (3 horiz. bars) was clicked, the drop-down menu that exists already (further back in z-index) is brought to the front and made visible.
+--> I had hoped to create a database using MySWL and an API for the CardSection component, and had set the code up to support that using Props. However, due to time constraints as I am quite slow as a dev still, I didn't implement those.
+--> I did attempt to use Bootstrap and TailWindCSS (there may be some unused dependencies in the package.json file, however, I struggled to comprehend the class about Bootstrap and TailwindCSS so I still don't understand how to use them and may need to watch some tutorials to get into that when I have more time.
+--> I feel like my wesbite/application is quite basic, and not expertly designed, but I did grow in confidence a little with React and better understand some things that I was struggling to comprehend prior to this mission. I am glad to have a finished product, at least.
 
-There are many great README templates available on GitHub; however, I didn't find one that really suited my needs so I created this enhanced one. I want to create a README template so amazing that it'll be the last one you ever need -- I think this is it.
+BUILT WITH:
+React JSX
+CSS Modules
 
-Here's why:
+GETTING STARTED:
+1. Open integrated terminal under L5MissionZero
+2. npm install --> (to install react node modules)
+3. npm start --> (to start development server)
 
-Your time should be focused on creating something amazing. A project that solves a problem and helps others
-You shouldn't be doing the same tasks over and over like creating a README from scratch
-You should implement DRY principles to the rest of your life 😄
-Of course, no one template will serve all projects since your needs may be different. So I'll be adding more in the near future. You may also suggest changes by forking this repo and creating a pull request or opening an issue. Thanks to all the people have contributed to expanding this template!
+ICONS AND IMAGES:
+Unsplash (For the various massage-related images)
+Font Awesome (For the hamburger menu)
 
-Use the BLANK_README.md to get started.
-
-(back to top)
-
-Built With
-This section should list any major frameworks/libraries used to bootstrap your project. Leave any add-ons/plugins for the acknowledgements section. Here are a few examples.
-
-Next
-React
-Vue
-Angular
-Svelte
-Laravel
-Bootstrap
-JQuery
-(back to top)
-
-Getting Started
-This is an example of how you may give instructions on setting up your project locally. To get a local copy up and running follow these simple example steps.
-
-Prerequisites
-This is an example of how to list things you need to use the software and how to install them.
-
-npm
-npm install npm@latest -g
-Installation
-Below is an example of how you can instruct your audience on installing and setting up your app. This template doesn't rely on any external dependencies or services.
-
-Get a free API Key at https://example.com
-Clone the repo
-git clone https://github.com/your_username_/Project-Name.git
-Install NPM packages
-npm install
-Enter your API in config.js
-const API_KEY = 'ENTER YOUR API';
-(back to top)
-
-Usage
-Use this space to show useful examples of how a project can be used. Additional screenshots, code examples and demos work well in this space. You may also link to more resources.
-
-For more examples, please refer to the Documentation
-
-(back to top)
-
-Roadmap
- Add Changelog
- Add back to top links
- Add Additional Templates w/ Examples
- Add "components" document to easily copy & paste sections of the readme
- Multi-language Support
- Chinese
- Spanish
-See the open issues for a full list of proposed features (and known issues).
-
-(back to top)
-
-Contributing
-Contributions are what make the open source community such an amazing place to learn, inspire, and create. Any contributions you make are greatly appreciated.
-
-If you have a suggestion that would make this better, please fork the repo and create a pull request. You can also simply open an issue with the tag "enhancement". Don't forget to give the project a star! Thanks again!
-
-Fork the Project
-Create your Feature Branch (git checkout -b feature/AmazingFeature)
-Commit your Changes (git commit -m 'Add some AmazingFeature')
-Push to the Branch (git push origin feature/AmazingFeature)
-Open a Pull Request
-(back to top)
-
-License
-Distributed under the MIT License. See LICENSE.txt for more information.
-
-(back to top)
-
-Contact
-Your Name - @your_twitter - email@example.com
-
-Project Link: https://github.com/your_username/repo_name
-
-(back to top)
-
-Acknowledgments
-Use this space to list resources you find helpful and would like to give credit to. I've included a few of my favorites to kick things off!
-
-Choose an Open Source License
-GitHub Emoji Cheat Sheet
-Malven's Flexbox Cheatsheet
-Malven's Grid Cheatsheet
-Img Shields
-GitHub Pages
-Font Awesome
-React Icons
+Thank you,
+Jason :-)
