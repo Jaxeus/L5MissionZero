@@ -7,16 +7,15 @@
   background-color: salmon;
   position: absolute;
   top: 0;
+  /* z-index is set to -1 so that it is hidden. Responsiveness below will make it visible under 584px screen width */
   z-index: -1;
 }
 
 .leftContainer {
-  /* width: 13vw; */
   display: flex;
   justify-content: space-around;
   align-items: center;
   gap: 1vw;
-  /* background-color: lightseagreen; */
 }
 
 .leftContainer img {
@@ -60,10 +59,11 @@
   padding: 1vh 2vw;
 }
 
-/* Responsiveness */
+/* Responsiveness to allow this Nav module to take over default NavBar when screen-width goes below 584px */
 
 @media only screen and (max-width: 583px) {
   .navTryContainer {
+    /* z-index is critical here, making this whole nav container visible below 584px screen width */
     z-index: 0;
   }
 
@@ -77,9 +77,13 @@
     margin-right: 30px;
     z-index: 10;
   }
+
+  .hamburgerIcon:hover {
+    color: #704;
+  }
 }
 
-/* Drop-down menu */
+/* Drop-down menu - if the state is true, after you click the hamburger icon, this drop-down-menu will appear */
 
 .dropDown {
   position: absolute;
@@ -87,10 +91,14 @@
   z-index: 5;
 }
 
+.leftContainer img {
+  z-index: 6;
+}
+
 .dropDown button {
   display: block;
   width: 100vw;
-  height: 55px;
+  height: 57px;
   background-color: salmon;
   border: solid 1px #704080;
   color: #704080;
@@ -100,6 +108,16 @@
   text-decoration: none;
 }
 
+.dropDown button:hover {
+  background-color: #caadd3;
+}
+
 .dropDown button a:visited {
   color: #704080;
+}
+
+/* Not drop-down - if the state is false then the drop-down menu will disappear */
+
+.notDropDown {
+  display: none;
 }

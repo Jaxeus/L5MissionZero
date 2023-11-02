@@ -9,12 +9,10 @@
 }
 
 .leftContainer {
-  /* width: 13vw; */
   display: flex;
   justify-content: space-around;
   align-items: center;
   gap: 1vw;
-  /* background-color: lightseagreen; */
 }
 
 .leftContainer img {
@@ -49,6 +47,10 @@
   padding: 1vh 1vw;
 }
 
+.menuBtn a:hover {
+  color: #704;
+}
+
 .loginBtn {
   font-size: 18px;
   border: none;
@@ -56,6 +58,11 @@
   color: salmon;
   margin-right: 4vw;
   padding: 1vh 2vw;
+}
+
+.loginBtn:hover {
+  background-color: #caadd3;
+  color: #704080;
 }
 
 /* Responsiveness */

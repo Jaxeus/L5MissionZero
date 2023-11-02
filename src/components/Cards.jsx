@@ -5,6 +5,7 @@ export default function Cards(props) {
   return (
     <div className={styles.cardContainer}>
       <div className={styles.imageContainer}>
+        {/* Props linked upward to CardSection */}
         <img alt="massage-pic" src={props.source} />
       </div>
       <div className={styles.textContainer}>

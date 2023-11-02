@@ -1,14 +1,11 @@
 .cardContainer {
-  /* margin-top: 4vh; */
   width: 400px;
   height: 300px;
-  /* background-color: aquamarine; */
 }
 
 .imageContainer {
   width: 400px;
   height: 225px;
-  background-color: salmon;
   background-color: #feb8b07f;
   display: flex;
   justify-content: center;
@@ -49,7 +46,6 @@
   .cardContainer {
     width: 600px;
     height: 450px;
-    /* background-color: aquamarine; */
   }
 
   .imageContainer {
@@ -82,7 +78,6 @@
   .cardContainer {
     width: 360px;
     height: 270px;
-    /* background-color: aquamarine; */
   }
 
   .imageContainer {

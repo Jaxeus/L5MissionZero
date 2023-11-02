@@ -4,9 +4,14 @@ import styles from "./AboutSection.module.css";
 export default function AboutSection() {
   return (
     <div className={styles.aboutContainer} id="about-section">
+      {/* ID above for menu btn href */}
+
+      {/* Heading */}
       <div className={styles.headingContainer}>
         <h2>My Story</h2>
       </div>
+
+      {/* Paragraphs of AboutSection info */}
       <ul>
         <li className={styles.listOdd}>
           I am from Isan, the northern part of Thailand that shares the Laotian

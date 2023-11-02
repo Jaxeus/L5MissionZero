@@ -8,10 +8,16 @@ import traditionalMassage from "../assets/images/traditional-resized.jpg";
 export default function CardSection() {
   return (
     <div className={styles.container} id="treatments-section">
+      {/* ID above for menu btns href */}
+
+      {/* Heading */}
       <div className={styles.headingContainer}>
         <h2>Treatments</h2>
       </div>
+
+      {/* Flex container for cards showing treatments */}
       <div className={styles.cardContainer}>
+        {/* Props linked downward to Cards */}
         <Cards
           textOne="Traditional Massage"
           textTwo="Deep tissue and stretching"
